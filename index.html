@@ -66,20 +66,7 @@ mix-blend-mode:difference;}
               }
           }).addTo(map);
 
-          var LeafIcon = L.Icon.extend({
-    options: {
-       iconSize:     [38, 95],
-       shadowSize:   [50, 64],
-       iconAnchor:   [22, 94],
-       shadowAnchor: [4, 62],
-       popupAnchor:  [-3, -76]
 
-       L.marker([51.5, -0.09], {icon: greenIcon}).addTo(map);
-    }
-});
-var greenIcon = new LeafIcon({
-    iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-green.png',
-    shadowUrl: 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png'
 })
 
   fetch('marcosProperty.geojson')
