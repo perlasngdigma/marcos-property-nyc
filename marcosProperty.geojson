@@ -1,0 +1,214 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -72.7943,
+            40.7855389
+          ]
+        },
+        "properties": {
+          "Property": "Lindenmere Estate, 16 Sedgemere Road",
+          "Location": "Center Moriches, New York",
+          "Country": "USA",
+          "Property Value": "US$20 million",
+          "Personalities/Organization": "Imelda Marcos, Augusto Camacho, Vilma Bautista, Luna 7 Development Corp.",
+          "Date Acquired": "1981"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.974553,
+            40.762868
+          ]
+        },
+        "properties": {
+          "Property": "Crown Building, 730 5th Avenue",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "US$93.6 million",
+          "Personalities/Organization": "Imelda Marcos, Gliceria Tantoco, Joseph Bernstein, Ralph Bernstein, Lasutra N.V.",
+          "Date Acquired": "September 1981"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.976279,
+            40.759397
+          ]
+        },
+        "properties": {
+          "Property": "One condominium unit at Olympic Tower, 641 and 645 Fifth Avenue",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Personalities/Organization": "Ferdinand Marcos, Antonio Floirendo, Rodolfo del Rosario, Sugarbush Corp. N.V."
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.976279,
+            40.759397
+          ]
+        },
+        "properties": {
+          "Property": "Three adjacent condominium units at 43rd Floor, Olympic Tower, 641 and 645 Fifth Avenue",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "US$688,000",
+          "Personalities/Organization": "Imelda Marcos, Antonio Floirendo, Vilma Bautista, Thetaventure Ltd.",
+          "Date Acquired": "1981"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.988288,
+            40.745811
+          ]
+        },
+        "properties": {
+          "Property": "Herald Center, 1293 Broadway Avenue",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "US$90 million",
+          "Personalities/Organization": "Imelda Marcos, Gliceria Tantoco, Fe Roa Gimenez, Vilma Bautista, Voloby Ltd.",
+          "Date Acquired": "February 1982"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.698377,
+            40.303622
+          ]
+        },
+        "properties": {
+          "Property": "3850 Princeton Pike",
+          "Location": "Princeton, New Jersey",
+          "Country": "USA",
+          "Property Value": "US$1 million",
+          "Personalities/Organization": "Imee Marcos, Faylin Ltd. Corp., William Deyo, Bernstein, Carter & Deyo, Tristan Beplat",
+          "Date Acquired": "26 October 1982"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.943797,
+            39.874716
+          ]
+        },
+        "properties": {
+          "Property": "4 Capshire Drive",
+          "Location": "Cherry Hill, New Jersey",
+          "Country": "USA",
+          "Property Value": "US$90,000",
+          "Personalities/Organization": "Bongbong Marcos, Julian Antolin Jr., Irvin P. Ver",
+          "Date Acquired": "23 November 1978"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.944891,
+            39.874733
+          ]
+        },
+        "properties": {
+          "Property": "19 Pendleton Drive",
+          "Location": "Cherry Hill, New Jersey",
+          "Country": "USA",
+          "Property Value": "US$119,000",
+          "Personalities/Organization": "Bongbong Marcos, Tristan Beplat"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.009654,
+            40.70669
+          ]
+        },
+        "properties": {
+          "Property": "40 Wall Street",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "US$71 million",
+          "Personalities/Organization": "Imelda Marcos, Jose Yao Campos, Rolando Gapud, NYLand (CF8) Ltd.",
+          "Date Acquired": "20 December 1983"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.982993,
+            40.748831
+          ]
+        },
+        "properties": {
+          "Property": "200 Madison Avenue",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "US$50 million",
+          "Personalities/Organization": "Imelda Marcos, Gliceria Tantoco, Fe Roa Gimenez, Vilma Bautista, Glockhurst Corp. N.V.",
+          "Date Acquired": "22 November 1983"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -74.629732,
+            40.371689
+          ]
+        },
+        "properties": {
+          "Property": "231 Dodds Lane",
+          "Location": "Princeton, New Jersey",
+          "Country": "USA",
+          "Personalities/Organization": "Imee Marcos, Tristan Beplat, Samuel Lambert III"
+        }
+      },
+      {
+        "type": "Feature",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.915592,
+            40.622139
+          ]
+        },
+        "properties": {
+          "Property": "Townhouse on 13-15 East 66th Street",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "US$5,950,000"
+        }
+      }
+    ]
+  }
