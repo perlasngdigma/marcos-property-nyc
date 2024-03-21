@@ -14,8 +14,8 @@ integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
   <title>Marcos Property NYC</title>
 </head>
 <body>
- <h1> $$$ MARCOS PROPERTIES ACROSS NYC $$$</h1> 
-  <h2>13 PROPERTIES ACROSS NEW YORK, NEW JERSEY, AND PENNSYLVANIA OWNED BY THE MARCOS FAMILY</h2>
+ <h1> $$$ MARCOS PROPERTY USA $$$</h1> 
+  <h2>$340 MILLION WORTH OF REAL ESTATE OWNED BY THE MARCOS FAMILY AND THEIR CRONIES</h2>
   <div id="map"></div>
 
 </body>
@@ -37,12 +37,13 @@ body {
     margin: 0 auto;
     opacity: 100%; 
     mix-blend-mode:hard-light;
+    margin-bottom: 20px;
 }
 h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  font-size: 70px; 
  color: rgb(250, 0, 0);
  text-align: center;
-  margin-bottom: 35px;
+  margin-bottom: 40px;
   transform: scale(.75, 2.5);
 }
 h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -54,13 +55,19 @@ h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   text-align: center;
   font-size: 120%;
+  margin-top: 20px;
   margin-left: 180px;
   margin-right: 180px;
 }
 marquee{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: xx-large;
 color: white;
-mix-blend-mode:difference;}
+mix-blend-mode:difference;
+}
+
+.leaflet-popup-content-wrapper{color: red;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
 </style>
 <script> var map = L.map('map').setView([40.742380293045606, -73.9879861348726], 12);
@@ -68,13 +75,19 @@ mix-blend-mode:difference;}
       maxZoom: 19,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
   }).addTo(map);
- 
+  var marcosMask = L.icon({
+    iconUrl: 'mask.png',
+
+    iconSize:     [35, 35], // size of the icon
+    iconAnchor:   [17, 35], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0,-33] // point from which the popup should open relative to the iconAnchor
+});
   fetch('marcosProperty.geojson')
       .then(response => response.json())
       .then(data => {
           L.geoJSON(data, {
               pointToLayer: function (feature, latlng) {
-                  return L.marker(latlng);
+                  return L.marker(latlng,{icon: marcosMask});
               }
           }).addTo(map);
 
@@ -83,7 +96,7 @@ mix-blend-mode:difference;}
       .then(data => {
           L.geoJSON(data, {
     pointToLayer: function (feature, latlng) {
-      return L.marker(latlng).bindPopup(createPopupContent(feature.properties));
+      return L.marker(latlng,{icon: marcosMask}).bindPopup(createPopupContent(feature.properties));
       function createPopupContent(properties) {
     var content = "<b>" + properties["Property"] + "</b><br>";
     if (properties["Property Value"])
@@ -94,7 +107,48 @@ mix-blend-mode:difference;}
     
   }).addTo(map);
 
+  
+
       });
+      
+    });
+
+    var cronyMask = L.icon({
+    iconUrl: 'cronies.png',
+
+    iconSize:     [35, 35], // size of the icon
+    iconAnchor:   [17, 35], // point of the icon which will correspond to marker's location
+    popupAnchor:  [0,-33] // point from which the popup should open relative to the iconAnchor
+});
+  fetch('Cronies.geojson')
+      .then(response => response.json())
+      .then(data => {
+          L.geoJSON(data, {
+              pointToLayer: function (feature, latlng) {
+                  return L.marker(latlng,{icon: cronyMask});
+              }
+          }).addTo(map);
+
+  fetch('Cronies.geojson')
+      .then(response => response.json())
+      .then(data => {
+          L.geoJSON(data, {
+    pointToLayer: function (feature, latlng) {
+      return L.marker(latlng,{icon: cronyMask}).bindPopup(createPopupContent(feature.properties));
+      function createPopupContent(properties) {
+    var content = "<b>" + properties["Property"] + "</b><br>";
+    if (properties["Property Value"])
+      content += "Property Value: " + properties["Property Value"];
+    return content;
+  }
+    }
+    
+  }).addTo(map);
+
+  
+
+      });
+      
     });
 
   </script>
@@ -105,9 +159,7 @@ mix-blend-mode:difference;}
     <marquee direction = "left"> $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH $30 BILLION IN STOLEN WEALTH </marquee>
     <marquee direction = "right"> 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED 3,200 KILLED </marquee>
  <h3>
-  Ferdinand Marcos took power as President of the Philippines on December 30th, 1965 as the head of a brutal dictatorship that would last until the People Power Revolution of 1986. Throughout the Marcos regime, the Filipino people faced extreme repression at a social and economic level with nearly 7 out of 10 families below the poverty line and tens of thousands jailed, tortured, and killed without trial during the 14 year period of Martial Law established in 1972. While the Filipino masses were suffering in the cities and countryside, Marcos and his family delighted in extravagant parties, vacations, and personal construction projects, paid for by the billions plundered from public funds. At the fall of the regime in 1986, the United States rescued Marcos and his family, offering them safe passage to the US where he lived out the rest of his life without repercussion. 
-  
-  Alongside a vast portfolio of billions of dollars in art and commercial assets, these 13 real estate properties scattered throughout the northeast serve as a monument to the rampant embezzlement of the Marocs regime and all the lives lost in favor of profit.
+  These 28 US based properties reflect only a small portion of the Marcoses’ billion dollar investment portfolio made up of real estate, commercial, and art assets scattered across the world. The Philippine Supreme Court considers these landholdings as part of the larger ill-gotten wealth of the Marcos family, based on the definitions set forth in Republic Act 1379 of 1955. Many of these properties were acquired in the tail end of the dictatorship through the use of family members, shell corporations, and other cronies, all purchased through funds embezzled from the Filipino people. Lesser-known properties include gold and diamond investments in South Africa, banks and hotels in Israel, and various landholdings in Austria, London, and Rome. It is estimated that the total amount of the ill-gotten Marcos fortune exceeds $30 billion. These sites serve as a monument to the stolen wealth of the Filipino people and the enduring bond between the Marcos regime and the United States.
 </h3>
   </body>
 </html>
