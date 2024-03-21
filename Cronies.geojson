@@ -1,0 +1,189 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "23411 Arminta Street",
+          "Location": "Los Angeles, California",
+          "Country": "USA",
+          "Property Value": "$218,900",
+          "Personalities/Organization": "Tolosa Resources[58]",
+          "Date Acquired": "1983",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -118.6372977401258,
+            34.21378475877807
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "3778 Callan Boulevard",
+          "Location": "South San Francisco, California",
+          "Country": "USA",
+          "Property Value": "$120,000",
+          "Personalities/Organization": "Eduardo V. Romualdez Jr., Buena T. Romualdez[58]",
+          "Date Acquired": "13 December 1984",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.46609826441805,
+            37.6479634
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "1580 Forest Villa Lane",
+          "Location": "McLean, Virginia",
+          "Country": "USA",
+          "Property Value": "$500,000",
+          "Personalities/Organization": "Antonio Romualdez[58]",
+          "Date Acquired": "1985"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -77.15784512209027,
+            38.9294091076345
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "281 Lake Drive",
+          "Location": "San Bruno, California",
+          "Country": "USA",
+          "Property Value": "$200,000",
+          "Personalities/Organization": "Margarita Romualdez-Licaros[59]",
+          "Date Acquired": "July 1983",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.45228576441805,
+            37.6234765023379
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "Pera Drive & Plano Court",
+          "Location": "Rancho Murieta, California",
+          "Country": "USA",
+          "Property Value": "$197,000",
+          "Personalities/Organization": "Armando Romualdez, Vilma Romualdez[59]",
+          "Date Acquired": "1 June 1982",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -121.09978905092639,
+            38.5038063
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "2352 South Lynn Court",
+          "Location": "West Covina, California",
+          "Country": "USA",
+          "Personalities/Organization": "Fortuna Marcos-Barba[59]",
+          "Date Acquired": "5 October 1981",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -117.90286686441806,
+            34.028752308404236
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "1115 Lakeview Drive",
+          "Location": "Hillsborough, California",
+          "Country": "USA",
+          "Personalities/Organization": "Ricardo Silverio, Astroair Services[60]",
+          "Date Acquired": "5 October 1981",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.35179543558195,
+            37.534190692141735
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "Apartment H, 29th Floor, Olympic Tower, 641 and 645 Fifth Avenue",
+          "Location": "New York City, New York",
+          "Country": "USA",
+          "Property Value": "$270,000",
+          "Personalities/Organization": "Antonio Floirendo, United Motors[47]",
+          "Date Acquired": "September 1976"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -73.97579959325417,
+            40.75945867990679
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "Unit 1602, Ten Miller Place",
+          "Location": "San Francisco, California",
+          "Country": "USA",
+          "Personalities/Organization": "Mariano \"Nonong\" Marcos II[61]",
+          "Date Acquired": "18 November 1980"
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.40899196441805,
+            37.79316084354538
+          ]
+        }
+      },
+      {
+        "type": "Feature",
+        "properties": {
+          "Property": "Unit 602, 840 Powell Street",
+          "Location": "San Francisco, California",
+          "Country": "USA",
+          "Property Value": "$650,000",
+          "Personalities/Organization": "Roman Cruz, Middlesborough N.V. (Netherlands Antilles)[62]",
+          "Date Acquired": "9 June 1979",
+          "Owned by Cronies": true
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            -122.40909069325417,
+            37.792638565139725
+          ]
+        }
+      }
+    ]
+  }

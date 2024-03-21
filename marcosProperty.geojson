@@ -14,7 +14,7 @@
           "Property": "Lindenmere Estate, 16 Sedgemere Road",
           "Location": "Center Moriches, New York",
           "Country": "USA",
-          "Property Value": "US$20 million",
+          "Property Value": "$20 million",
           "Personalities/Organization": "Imelda Marcos, Augusto Camacho, Vilma Bautista, Luna 7 Development Corp.",
           "Date Acquired": "1981"
         }
@@ -32,7 +32,7 @@
           "Property": "Crown Building, 730 5th Avenue",
           "Location": "New York City, New York",
           "Country": "USA",
-          "Property Value": "US$93.6 million",
+          "Property Value": "$93.6 million",
           "Personalities/Organization": "Imelda Marcos, Gliceria Tantoco, Joseph Bernstein, Ralph Bernstein, Lasutra N.V.",
           "Date Acquired": "September 1981"
         }
@@ -47,7 +47,7 @@
           ]
         },
         "properties": {
-          "Property": "One condominium unit at Olympic Tower, 641 and 645 Fifth Avenue",
+          "Property": "One Condominium Unit at Olympic Tower, 641 and 645 Fifth Avenue",
           "Location": "New York City, New York",
           "Country": "USA",
           "Personalities/Organization": "Ferdinand Marcos, Antonio Floirendo, Rodolfo del Rosario, Sugarbush Corp. N.V."
@@ -63,10 +63,10 @@
           ]
         },
         "properties": {
-          "Property": "Three adjacent condominium units at 43rd Floor, Olympic Tower, 641 and 645 Fifth Avenue",
+          "Property": "Three Adjacent Condominium Units at 43rd Floor, Olympic Tower, 641 and 645 Fifth Avenue",
           "Location": "New York City, New York",
           "Country": "USA",
-          "Property Value": "US$688,000",
+          "Property Value": "$688,000",
           "Personalities/Organization": "Imelda Marcos, Antonio Floirendo, Vilma Bautista, Thetaventure Ltd.",
           "Date Acquired": "1981"
         }
@@ -84,7 +84,7 @@
           "Property": "Herald Center, 1293 Broadway Avenue",
           "Location": "New York City, New York",
           "Country": "USA",
-          "Property Value": "US$90 million",
+          "Property Value": "$90 million",
           "Personalities/Organization": "Imelda Marcos, Gliceria Tantoco, Fe Roa Gimenez, Vilma Bautista, Voloby Ltd.",
           "Date Acquired": "February 1982"
         }
@@ -102,7 +102,7 @@
           "Property": "3850 Princeton Pike",
           "Location": "Princeton, New Jersey",
           "Country": "USA",
-          "Property Value": "US$1 million",
+          "Property Value": "$1 million",
           "Personalities/Organization": "Imee Marcos, Faylin Ltd. Corp., William Deyo, Bernstein, Carter & Deyo, Tristan Beplat",
           "Date Acquired": "26 October 1982"
         }
@@ -120,7 +120,7 @@
           "Property": "4 Capshire Drive",
           "Location": "Cherry Hill, New Jersey",
           "Country": "USA",
-          "Property Value": "US$90,000",
+          "Property Value": "$90,000",
           "Personalities/Organization": "Bongbong Marcos, Julian Antolin Jr., Irvin P. Ver",
           "Date Acquired": "23 November 1978"
         }
@@ -138,7 +138,7 @@
           "Property": "19 Pendleton Drive",
           "Location": "Cherry Hill, New Jersey",
           "Country": "USA",
-          "Property Value": "US$119,000",
+          "Property Value": "$119,000",
           "Personalities/Organization": "Bongbong Marcos, Tristan Beplat"
         }
       },
@@ -155,7 +155,7 @@
           "Property": "40 Wall Street",
           "Location": "New York City, New York",
           "Country": "USA",
-          "Property Value": "US$71 million",
+          "Property Value": "$71 million",
           "Personalities/Organization": "Imelda Marcos, Jose Yao Campos, Rolando Gapud, NYLand (CF8) Ltd.",
           "Date Acquired": "20 December 1983"
         }
@@ -173,7 +173,7 @@
           "Property": "200 Madison Avenue",
           "Location": "New York City, New York",
           "Country": "USA",
-          "Property Value": "US$50 million",
+          "Property Value": "$50 million",
           "Personalities/Organization": "Imelda Marcos, Gliceria Tantoco, Fe Roa Gimenez, Vilma Bautista, Glockhurst Corp. N.V.",
           "Date Acquired": "22 November 1983"
         }
@@ -207,8 +207,9 @@
           "Property": "Townhouse on 13-15 East 66th Street",
           "Location": "New York City, New York",
           "Country": "USA",
-          "Property Value": "US$5,950,000"
+          "Property Value": "$5,950,000"
         }
+        
       }
     ]
   }
