@@ -40,12 +40,44 @@ body {
     margin-bottom: 20px;
 }
 h1{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- font-size: 70px; 
+ font-size: 4.375em; 
  color: rgb(250, 0, 0);
  text-align: center;
-  margin-bottom: 40px;
+ width: auto;
   transform: scale(.75, 2.5);
 }
+
+@media only screen 
+and (min-device-width: 240px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2) {
+h1 {
+font-size: 4em; /* a little smaller*/
+}
+}
+/* Portrait */
+@media only screen 
+and (min-device-width: 240px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+h1 {
+font-size: 3.5em; /* a little smaller*/
+}
+}
+
+/* Landscape */
+@media only screen 
+and (min-device-width: 320px) 
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+h1 {
+font-size: 3em; /* a little smaller*/
+}
+
+} 
+
 h2{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: white;
   text-align: center;
@@ -56,8 +88,8 @@ h3{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   text-align: center;
   font-size: 120%;
   margin-top: 20px;
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 marquee{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-size: xx-large;
@@ -78,9 +110,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   var marcosMask = L.icon({
     iconUrl: 'mask.png',
 
-    iconSize:     [35, 35], // size of the icon
-    iconAnchor:   [17, 35], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0,-33] // point from which the popup should open relative to the iconAnchor
+    iconSize:     [35, 35], 
+    iconAnchor:   [17, 35], 
+    popupAnchor:  [0,-33] 
 });
   fetch('marcosProperty.geojson')
       .then(response => response.json())
@@ -116,9 +148,9 @@ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     var cronyMask = L.icon({
     iconUrl: 'cronies.png',
 
-    iconSize:     [35, 35], // size of the icon
-    iconAnchor:   [17, 35], // point of the icon which will correspond to marker's location
-    popupAnchor:  [0,-33] // point from which the popup should open relative to the iconAnchor
+    iconSize:     [35, 35], 
+    iconAnchor:   [17, 35], 
+    popupAnchor:  [0,-33] 
 });
   fetch('Cronies.geojson')
       .then(response => response.json())
